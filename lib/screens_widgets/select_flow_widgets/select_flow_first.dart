@@ -38,12 +38,10 @@ class SelectFlowFirst extends StatelessWidget {
                       Text('Property buying guide',style: CustomTextStyle.sixteenMediumNeueHaas.copyWith(color: CustomColor.black24),)
                     ],
                   ),
-                  Container(
-                      child:Text('Skip the step',
-                        style: CustomTextStyle.fourteenSemiBold.copyWith(
-                            color: CustomColor.blue,
-                            decoration: TextDecoration.underline),)
-                  )
+                  Text('Skip the step',
+                    style: CustomTextStyle.fourteenSemiBold.copyWith(
+                        color: CustomColor.blue,
+                        decoration: TextDecoration.underline),)
                 ],
               ),
             ),
