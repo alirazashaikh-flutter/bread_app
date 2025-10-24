@@ -14,4 +14,7 @@ class CustomColor{
   static const Color black12 = Color(0xff00000040);
   static const Color black24 = Color(0xff272727);
   static const Color mehroon = Color(0xff421D13);
+  static const Color lightMehroon = Color(0xff421D13);
+  static const Color lightRed = Color(0xffC74C5E);
+  static const Color darkGray = Color(0xff5A5A5A);
 }

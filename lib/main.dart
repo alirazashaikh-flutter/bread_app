@@ -5,6 +5,7 @@ import 'package:bread_app/screens/save_deposit/sd_property_goal.dart';
 import 'package:bread_app/screens/save_deposit/sd_save_per_month.dart';
 import 'package:bread_app/screens/select_flow.dart';
 import 'package:bread_app/screens/select_flow_final_screens/credit_detail.dart';
+import 'package:bread_app/screens/select_flow_final_screens/credit_score.dart';
 import 'package:bread_app/screens/select_flow_two_screens/loading_screen.dart';
 import 'package:bread_app/screens/onboarding_screen.dart';
 import 'package:bread_app/screens/select_flow_two_screens/property_buying.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:CreditDetail(),
+      home:CreditScore(),
     );
   }
 }

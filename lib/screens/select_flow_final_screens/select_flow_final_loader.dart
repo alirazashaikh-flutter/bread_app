@@ -1,7 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../constants/custom_color.dart';
 import '../../constants/custom_text_style.dart';
+import 'credit_score.dart';
 
 class SelectFlowFinalLoader extends StatefulWidget {
   const SelectFlowFinalLoader({super.key});
@@ -32,9 +35,9 @@ class _SelectFlowFinalLoaderState extends State<SelectFlowFinalLoader> with Sing
     animationController.repeat(reverse: true);
 
 
-    // Timer(Duration(seconds: 3), (){
-    //   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> BankAnalysis()));
-    // });
+    Timer(Duration(seconds: 3), (){
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> CreditScore()));
+    });
 
   }
 

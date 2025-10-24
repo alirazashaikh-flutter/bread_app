@@ -7,6 +7,11 @@ class CustomTextStyle{
     fontFamily: 'neue-haas-grotesk',
     fontWeight: FontWeight.w600,
   );
+  static TextStyle twelveBoldNeueHaas = TextStyle(
+    fontSize: 14,
+    fontFamily: 'neue-haas-grotesk',
+    fontWeight: FontWeight.w700,
+  );
   static TextStyle twelveLightNeueHaas = TextStyle(
     fontSize: 14,
     fontFamily: 'neue-haas-grotesk',
